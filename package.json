@@ -1,0 +1,22 @@
+{
+  "name": "rxjs",
+  "version": "1.0.0",
+  "description": "Estudando rxjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"Teste\")"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nagpaulo"
+  },
+  "keywords": [
+    "nagpaulo"
+  ],
+  "author": "Paulo Roberto Mesquita da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "express": "^4.17.1"
+  }
+}
