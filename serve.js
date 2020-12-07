@@ -8,7 +8,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/ordenacaosemrxjs", function(req,res){
-    res.sendFile(path.join(`${__dirname}/ordernacao-array-javascript.js`));
+    res.sendFile(path.join(`${__dirname}/src/javascript/ordenacao-array-reduce.html`));
 });
 
 http.createServer(app).listen(3000, () => console.log("Servidor rodando local na porta 3000"));
